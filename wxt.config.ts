@@ -4,6 +4,7 @@ import { defineConfig } from 'wxt';
 export default defineConfig({
   modules: ['@wxt-dev/module-vue'],
   manifest: {
+    name: 'TranslationBuddy',
     web_accessible_resources: [
       {
         resources: ['icon/*'],
@@ -14,6 +15,6 @@ export default defineConfig({
       'tabs',
       'scripting',
       'storage'  // 添加存储权限
-    ]
+    ],
   }
 });

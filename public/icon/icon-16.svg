@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="8" cy="8" r="7.5" fill="#4285F4" opacity="0.9"/>
+  
+  <!-- 简化的翻译图标 -->
+  <g transform="scale(0.7) translate(3.5, 3.5)">
+    <!-- 左侧文档 -->
+    <rect x="3" y="3" width="6" height="10" rx="1" ry="1" fill="white"/>
+    
+    <!-- 右侧文档 -->
+    <rect x="7" y="5" width="6" height="10" rx="1" ry="1" fill="white"/>
+    
+    <!-- 翻译箭头 -->
+    <path d="M6 10l2 2 2-2" fill="none" stroke="#FBBC05" stroke-width="0.8" stroke-linecap="round"/>
+    <path d="M10 6l-2-2-2 2" fill="none" stroke="#EA4335" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="8" y1="4" x2="8" y2="12" stroke="white" stroke-width="0.8" stroke-linecap="round"/>
+  </g>
+</svg>

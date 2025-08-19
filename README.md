@@ -18,10 +18,10 @@ This template should help get you started developing with Vue 3 in WXT.
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/rkkks">
+      <a href="https://github.com/ah-Quei">
         <img src="https://i.meee.com.tw/VpVqGY7.png" width="100px;" alt="rkkks"/>
         <br />
-        <sub><b>rkkks</b></sub>
+        <sub><b>ah-Quei（网络安全大神）</b></sub>
       </a>
     </td>
   </tr>

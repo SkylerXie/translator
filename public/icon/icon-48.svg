@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="24" cy="24" r="22" fill="#4285F4" opacity="0.9"/>
+  
+  <!-- 翻译图标 -->
+  <g transform="scale(0.8) translate(6, 6)">
+    <!-- 左侧文档 -->
+    <rect x="10" y="10" width="16" height="28" rx="2" ry="2" fill="white"/>
+    
+    <!-- 右侧文档 -->
+    <rect x="20" y="14" width="16" height="28" rx="2" ry="2" fill="white"/>
+    
+    <!-- 左侧文档文本线 -->
+    <line x1="13" y1="16" x2="23" y2="16" stroke="#EA4335" stroke-width="2" stroke-linecap="round"/>
+    <line x1="13" y1="20" x2="21" y2="20" stroke="#EA4335" stroke-width="2" stroke-linecap="round"/>
+    <line x1="13" y1="24" x2="19" y2="24" stroke="#EA4335" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- 右侧文档文本线 -->
+    <line x1="23" y1="20" x2="33" y2="20" stroke="#34A853" stroke-width="2" stroke-linecap="round"/>
+    <line x1="23" y1="24" x2="31" y2="24" stroke="#34A853" stroke-width="2" stroke-linecap="round"/>
+    <line x1="23" y1="28" x2="29" y2="28" stroke="#34A853" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- 翻译箭头 -->
+    <path d="M18 32l6 6 6-32" fill="none" stroke="#FBBC05" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M30 16l-6-6-6 6" fill="none" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="24" y1="10" x2="24" y2="38" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- A-文 字母标识 -->
+  <text x="16" y="26" font-family="Arial, sans-serif" font-weight="bold" font-size="8" fill="white">A</text>
+  <text x="28" y="26" font-family="Arial, sans-serif" font-weight="bold" font-size="8" fill="white">文</text>
+</svg>
